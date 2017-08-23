@@ -1,0 +1,14 @@
+{
+  "todos": [
+    {
+      "task": "This is a seeded task.",
+      "status": "Pending",
+      "id": "IDSTRING"
+    },
+    {
+      "task": "This is another seeded task.",
+      "status": "Pending",
+      "id": "ANOTHERIDSTRING"
+    }
+  ]
+}

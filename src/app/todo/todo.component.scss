@@ -1,0 +1,11 @@
+td {
+  min-width: 100px !important;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.Completed {
+  text-decoration: line-through;
+}

@@ -1,0 +1,13 @@
+<app-todo-search (newSearch)="filterData($event)"></app-todo-search>
+<table class="ui selectable celled table">
+  <thead>
+    <tr>
+      <th>Task</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr app-todo [todo]="todoObject" *ngFor="let todoObject of todos | async" (click)="toggle(todoObject)"></tr>
+  </tbody>
+</table>
+<app-todo-add></app-todo-add>
